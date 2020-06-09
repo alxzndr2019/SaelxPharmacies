@@ -34,3 +34,23 @@ nav .navbar-nav li a{
 nav .navbar-brand {
     color: white !important;
 }
+ul{
+    list-style-type: none;
+}
+.jumbotron {
+    margin-bottom: 0px;
+ }
+.caru{
+    height: 450px;
+}
+.carousel-item img{
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+.jumbotron{
+   
+    background-size: cover;
+    height: 100%;
+    background-color : black !important ;
+    
+}
