@@ -43,10 +43,14 @@ ul{
 .caru{
     height: 450px;
 }
+.carousel-item{
+    height: 300px;
+}
 .carousel-item img{
   filter: blur(10px);
   -webkit-filter: blur(10px);
 }
+
 .jumbotron{
    
     background-size: cover;
@@ -54,8 +58,12 @@ ul{
     background-color : black !important ;
     
 }
-@media (min-width: 544px) {  
+
+  @media (min-width: 544px) {  
     h1 {font-size:20px;} /*1rem = 16px*/
   }
-   
-
+  @media only screen and (max-width: 600px) {
+    .carousel-item h5{
+        font-size: 40px !important;
+    }
+  }
