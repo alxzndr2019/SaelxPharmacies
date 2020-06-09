@@ -54,5 +54,8 @@ ul{
     background-color : black !important ;
     
 }
-
+@media (min-width: 544px) {  
+    h1 {font-size:20px;} /*1rem = 16px*/
+  }
+   
 
