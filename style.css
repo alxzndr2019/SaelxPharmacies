@@ -41,7 +41,7 @@ ul{
     margin-bottom: 0px;
  }
 .caru{
-    height: 450px;
+    height: 300px;
 }
 .carousel-item{
     height: 300px;
@@ -64,6 +64,6 @@ ul{
   }
   @media only screen and (max-width: 600px) {
     .carousel-item h5{
-        font-size: 40px !important;
+        font-size: 20px !important;
     }
   }
