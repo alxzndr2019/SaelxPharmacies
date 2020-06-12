@@ -46,10 +46,18 @@ ul{
 .carousel-item{
     height: 300px;
 }
-.carousel-item img{
-  filter: blur(10px);
-  -webkit-filter: blur(10px);
+.black-overlay{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
 }
+/* .carousel-item img{
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+} */
 
 .jumbotron{
    
