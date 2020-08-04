@@ -41,10 +41,10 @@ ul{
     margin-bottom: 0px;
  }
 .caru{
-    height: 300px;
+    height: 600px !important;
 }
 .carousel-item{
-    height: 300px;
+    height: 600px !important;
 }
 .black-overlay{
     position: absolute;
@@ -68,15 +68,27 @@ ul{
     
 }
 
-  @media (min-width: 544px) {  
+  @media (min-width: 375px) {  
     h1 {font-size:20px;} /*1rem = 16px*/
+    .caru{
+        height: 300px;
+    }
+    .carousel-item{
+        height: 300px;
+    }
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 375px) {
     .carousel-item h5{
         font-size: 37px !important;
     }
     .ques-text .display-4{
         font-size: 42px !important;
+    }
+    .caru{
+        height: 300px;
+    }
+    .carousel-item{
+        height: 300px;
     }
   }
  .logo{
@@ -87,3 +99,6 @@ ul{
   footer {
       background-color: rgb(40, 167, 69);
   }
+.rc{
+font-size: 10px !important;
+}
